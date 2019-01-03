@@ -1,28 +1,30 @@
 {
-  "name": "react-native-mentions",
-  "version": "1.1.4",
-  "description": "Mentions textbox for React Native. Works on both ios and android",
+  "name": "react-native-tag-editor",
+  "version": "0.1",
+  "description": "Text editor for react native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harshq/react-native-mentions.git"
-  },
-  "dependencies": {
-    "react-native-parsed-text": "^0.0.20"
+    "url": "git+https://github.com/andriystabryn/react-native-tag-editor.git"
   },
   "keywords": [
     "react-component",
     "react-native",
     "mentions",
-    "textInput"
+    "textInput",
+    "tag",
+    "hashtag"
   ],
-  "author": "Harshana Abeyaratne <harshana.abeyaratne@gmail.com> (https://github.com/harshq)",
+  "author": "Andriy Stabryn <andriy.stabryn@agiliway.com> (https://github.com/andriystabryn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harshq/react-native-mentions/issues"
+    "url": "https://github.com/andriystabryn/react-native-tag-editor/issues"
   },
-  "homepage": "https://github.com/harshq/react-native-mentions#readme"
+  "homepage": "https://github.com/andriystabryn/react-native-tag-editor#readme",
+  "dependencies": {
+    "react-native-tag-editor": "git+https://github.com/andriystabryn/react-native-tag-editor.git"
+  }
 }
